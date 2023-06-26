@@ -40,7 +40,7 @@ function Search() {
                         prefix={<AiOutlineSearch className='text-primary text-3xl' />}
                     />
                 </section>
-                <section className='flex justify-between w-80 m-auto mt-5 lg:mt-3 lg:gap-5 max-w-sm'>
+                <section className='flex justify-between w-80 mt-5 lg:mt-3 lg:gap-5 max-w-sm m-auto lg:m-[0_auto_0_0]'>
                     {
                         links?.map(el => {
                             return <section key={Math.random()}>

@@ -94,7 +94,7 @@ function Tasks() {
             <section className='mt-10 text-center bg-gray-200 rounded-[50px] flex gap-3 justify-evenly py-3'>
                 {
                     tabs?.map(el => {
-                        return <button onClick={()=> setActiveTabe(el?.id)} className={clsx(activeTab === el?.id && 'text-primary', 'cursor-pointer text-3xl') } key={Math.random()}> {el?.icon} </button>
+                        return <button onClick={()=> setActiveTabe(el?.id)} className={clsx(activeTab === el?.id && 'text-primary', 'cursor-pointer text-3xl flex items-center') } key={Math.random()}> {el?.icon} </button>
                     })
                 }
             </section>

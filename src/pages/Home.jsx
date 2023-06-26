@@ -1,6 +1,7 @@
 
 
 import Cards from '../components/HomeComponents/Cards';
+import Connect from '../components/HomeComponents/Connect';
 import Search from '../components/HomeComponents/Search'
 import Tasks from '../components/HomeComponents/Tasks';
 function Home() {
@@ -16,7 +17,7 @@ function Home() {
                     <Tasks />
                 </section>
                 <section  className='lg:w-[32%]'>
-                    s
+                    <Connect />
                 </section>
             </div>
         </div>

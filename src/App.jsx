@@ -14,7 +14,7 @@ function App() {
         <div>
           <Nav />
         </div>
-        <div className="lg:p-10 lg:max-w-[80%]">
+        <div className="lg:p-10 lg:max-w-[70%] mr-auto">
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route exact path='/messages' element={<Messages />} />
