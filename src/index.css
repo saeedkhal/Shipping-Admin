@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --clr-primary: #00cba7;
+    --clr-secondary: #dae1f3;
+    --clr-card:#f3f6fc;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 1;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #ffffff;
+  }
+
+  .percentage {
+    fill: white;
+    font-family: sans-serif;
+    font-size: 0.4em;
+    text-anchor: middle;
+    font-weight: bold;
+  }
+
+  .tasks .slick-dots {
+    bottom: -12px;
+  }
+
+  .slick-next:before, .slick-prev:before{
+    color: red;
+  }
