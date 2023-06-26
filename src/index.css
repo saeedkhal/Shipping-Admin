@@ -25,12 +25,12 @@
   .circle-bg {
     fill: none;
     stroke: #eee;
-    stroke-width: 1;
+    stroke-width: 0.5;
   }
   
   .circle {
     fill: none;
-    stroke-width: 2;
+    stroke-width: 1.2;
     stroke-linecap: round;
     animation: progress 1s ease-out forwards;
   }
@@ -57,6 +57,6 @@
     bottom: -12px;
   }
 
-  .slick-next:before, .slick-prev:before{
-    color: red;
+  button{
+    @apply border-none bg-transparent
   }

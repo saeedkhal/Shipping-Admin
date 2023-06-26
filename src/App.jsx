@@ -1,8 +1,8 @@
-import Nav from "./components/Nav"
-import Home from "./components/Home.jsx"
-import Messages from "./components/Message.jsx"
-import Notification from "./components/Notification.jsx"
-import Test from "./components/Test.jsx"
+import Nav from "./components/SharedComponents/Nav"
+import Home from "./pages/Home.jsx"
+import Messages from "./pages/Message.jsx"
+import Notification from "./pages/Notification.jsx"
+import Test from "./pages/Test.jsx"
 import {  Routes, Route } from 'react-router-dom'
 
 

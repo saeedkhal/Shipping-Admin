@@ -5,6 +5,7 @@ import { IoMdNotifications } from 'react-icons/io';
 import { BsFillChatTextFill } from 'react-icons/bs';
 import { NavLink } from 'react-router-dom';
 import clsx from 'clsx';
+import logo from '../../assets/logo.svg';
 
 function Nav() {
     const nav = [
@@ -30,6 +31,7 @@ function Nav() {
     return (
         <>
             <div className='hidden lg:block left-0 sticky top-0 bg-primary text-white pl-5 text-5xl pt-10 min-h-[100vh]'>
+            <img src={logo} className='w-[100px] pr-5' />
                 {nav?.map(el => {
                     return <section key={Math.random()}>
                         <NavLink to={el?.to} className='text-white'>

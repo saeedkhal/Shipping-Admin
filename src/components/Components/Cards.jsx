@@ -1,4 +1,4 @@
-import Donuts from './Donuts';
+import Donuts from '../SharedComponents/Donuts';
 
 function Cards() {
   return (
